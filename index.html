@@ -18,6 +18,7 @@
 			.imge{width:300px;}
 			.imge3{width: 400px;}
 			.imge2{width:400px;margin-bottom: 100px ;}
+
 			.over{position: relative; right:  100px;}
 			.one{background: url("content1.png"); background-size: 1000px;align-content: center; text-align: center; padding: 100px;}
 			.one2 {width: auto;height: 1150px; text-align: center;}
@@ -30,32 +31,67 @@
 			.window{width: 800px; margin-top: 60px; margin-bottom: 30px;}
 			.window1{width: 800px; margin-bottom: 30px;}
 			.window3{width: 800px; margin-top: 30px; margin-bottom: 100px;}
-			.one3{background: url("net.png"); background-size: 1000px;align-content: center; text-align: center; padding: 50px;}
+			.one3{background: url("net.jpg"); background-size: 1000px; align-content: center; text-align: center;}
+			.sticker{position: absolute;top:  100px; left: 270px;}
+			.sticker2{position: absolute;top:  600px; right: 320px; width: 150px;}
+			.sticker3{position: absolute;top:  1100px; left: 370px; width: 200px; height: 200px;}
+			.sticker31{position: absolute;top:  1600px; right: 390px; width: 200px; height: 200px;}
+			.sticker4{position: absolute;top:  2100px; left: 320px;width: 180px;}
+			.sticker5{position: absolute;top:  2550px; right: 360px;width: 250px;}
+			.sticker6{position: absolute;top:  3800px; right: 350px;width: 250px;}
+			.sticker7{position: absolute;top:  3200px; left: 500px;width: 150px;}
+			.sticker8{position: absolute;top:  4200px; left: 300px;width: 250px;}
+			.sticker9{position: absolute;top:  5800px; right: 350px;width:230px;}
+			.sticker11{position: absolute;top:  7500px; right: 400px; width:200px;}
+			.sticker10{position: absolute;top:  7800px; left: 450px; width:130px;}
+			.sticker12{position: absolute;top:  8600px; right: 450px; width:130px; transform: rotate(180deg);}
+			.stickert{width:400px;margin-top: 50px;}
+			.last {width: 1000px; height: 1200px; text-align: center; align-content: center;}
+			.abcd {height: 50px;}
+			.black{width: 670px; height: 220px; background: black; text-align: center;}
+			.ssam{margin: auto; margin-top: 260px; width: 670px; height: 170px; background:black;padding-top: 70px;}
 
 			h6{display: flex;}
 			h1{font-size: 1.6rem; color: white;}
 			h2{font-size: 1.2rem; color: white; margin: auto;}
 			h3{font-size: 1.2rem; color: black;}
 			h4{font-size: 1.6rem; color: black;}
+			h5{background : white; width: 150px; height: 30px ; color:black; text-align: center; line-height: 32px; text-decoration: none; font-weight: bold;border-radius: 10px;box-shadow: 0px 0px 5px white;margin: auto; font-size: 20px;}
+		h5:hover{background : gold;color: black; box-shadow: 0px 0px 10px gold; transition: all 0.5s;}
+			h6{font-size: 1.6rem; color: black; text-align: center;}
 			p{}
 			a{background : black; color: black; font-weight: bold;}
 		a:hover{color: white;transition: all 1s;}
 		b{color:  black;}
 		b:hover{box-shadow: 0px 0px 100px white; transition: all 0.7s;}
 			section{background: url("back1.jpg"); background-attachment: fixed; background-size: 1200px;}
+			textarea{width: 670px; height: 220px; margin-top: 220px;margin-bottom: 10px;}
+
+
 
 
 		</style>
 
-<!--무조건 폭은 1000px로 픽셀로 지정해 어렵잖아 나중애해 
+<!--
 z-index는 맨위로 올리는거!! 이걸로도형올리면 되겠당.
 	<section style="left: 100px; top:500px; z-index: 10;"><div class="row" style="display: flex;">
 			<h2> display를 배워봅시다. </h2>
 			<P>css의 display 속성은 5가지가 있습니다. 이해하면 유용합니다^0^..</P>
 		</section>-->
 </head>
-
-
+<img class="sticker" src="sticker1.png">
+<img class="sticker2" src="sticker10.png">
+<img class="sticker31" src="sticker3.png">
+<img class="sticker3" src="sticker3.png">
+<img class="sticker4" src="sticker4.png">
+<img class="sticker5" src="sticker5.png">
+<img class="sticker6" src="sticker6.png">
+<img class="sticker7" src="sticker8.png">
+<img class="sticker8" src="sticker2.png">
+<img class="sticker9" src="sticker9.png">
+<img class="sticker11" src="sticker11.png">
+<img class="sticker10" src="sticker12.png">
+<img class="sticker12" src="sticker12.png">
 <body>
   <audio src="hit.wav" id="pp" type="audio/wav">
 </audio>
@@ -164,10 +200,19 @@ z-index는 맨위로 올리는거!! 이걸로도형올리면 되겠당.
 </h3>
 </div>
 <div class="one3">
-<img class="imge2" src="test.png">
-			<img class="window3" src="subwindow1.png">
-			<img class="window3" src="subwindow2.png">
+<img class="stickert" src="test.png">
+	<div class="last">
+	<textarea id="test" srows="4" cols="50">
+</textarea>
+			<h5>send</h5>
+			<div class="ssam">
+					<h4><a>알아서 하세요..</a></h4>
+					</div>
 </div>
+
+</div>
+</div>
+
 		<div class="box">
 		<h3>.</h3>
 	</div>
