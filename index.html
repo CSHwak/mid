@@ -3,7 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title></title>
+		<title>이상한 상담사</title>
+<!--<--! ./img/ 이거 사용해서 폴더 정리 . 경로표히할땐 점 1나랑  2개가 잇ㄴ다 ./img/a.jpg   ../img/a.gpg 점 두개는 한칸 위로 올라간다 . 2칸 올라갈 땐 ../../
+
+./style.css
+../style.css
+-->
 
 <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/games/gam-2/gam137.cur), auto !important;}</style>
 		<style type="text/css">
@@ -52,10 +57,14 @@ z-index는 맨위로 올리는거!! 이걸로도형올리면 되겠당.
 
 
 <body>
+  <audio src="hit.wav" id="pp" type="audio/wav">
+</audio>
 	<section>
 		<section style>
 			<div class="row">
 				<img class="jjal" src="main.png">
+
+
 			<div class="one">
 				<div class="one2">
 					<u>
@@ -96,7 +105,7 @@ z-index는 맨위로 올리는거!! 이걸로도형올리면 되겠당.
 	<h1>옵션 중 하나를 선택하세요</h1>
 	</div>
 	<div class="box2">
-		<img class="imge2" src="fact.png">
+		<img class="imge2" src="fact.png"onclick="pp.play();">
 	</div>
 		<h2>팩.폭.주.의
 		<p>저는 고객들의 고민을 차분히 듣고</p>
